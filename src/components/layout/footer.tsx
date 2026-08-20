@@ -133,19 +133,19 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="mt-16 border-t border-white/10 pt-8 text-center text-sm text-white/40">
-        © {new Date().getFullYear()} 48 Motion Pictures. All rights reserved.
-        {" | "}
-        Designed & Developed by{" "}
-        <a
-          href="https://www.instagram.com/Atharva.Karale_14/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition hover:text-white"
-        >
-          Atharva Karale
-        </a>
-     </div>
+     <div className="mt-16 border-t border-white/10 px-6 pt-8 text-center text-sm leading-6 text-white/40">
+          © {new Date().getFullYear()} 48 Motion Pictures. All rights reserved.
+          {" | "}
+          Designed & Developed by{" "}
+          <a
+            href="https://www.instagram.com/Atharva.Karale_14/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition hover:text-white"
+          >
+        Atharva Karale
+      </a>
+    </div>
     </footer>
   );
 }
