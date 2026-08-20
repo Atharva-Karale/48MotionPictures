@@ -24,7 +24,7 @@ const founders = [
     name: "Aditya Waghmare",
     role: "3D Artist",
     image: "/founders/Aditya.png",
-    position: "50% 20%",
+    position: "50% 5%",
   },
   {
     name: "Prathamesh Jagtap",
@@ -51,19 +51,18 @@ export default function AboutPage() {
             className="relative mx-auto max-w-4xl text-center"
           >
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-red-500">
-              About Us
+              Animation Studio
             </p>
 
             <h1 className="text-5xl font-bold leading-tight md:text-7xl">
-              We create stories
+              Where imagination
               <br />
-              <span className="text-white/60">worth remembering.</span>
+              <span className="text-white/60">comes to life.</span>
             </h1>
 
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-white/60">
-              48 Motion Pictures is a video production company built around
-              cinematic storytelling, creative thinking, and a passion for
-              creating work that makes people feel something.
+              48 Motion Pictures is an animation studio creating characters,
+              worlds, and stories through 3D artistry and visual storytelling.
             </p>
           </motion.div>
         </section>
@@ -73,42 +72,42 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl">
             <SectionHeading
               eyebrow="Who We Are"
-              title="Built around the story."
-              description="We believe great production is more than cameras, lighting and editing. It is about understanding an idea, finding its emotion, and turning it into something people remember."
+              title="Built for imagination."
+              description="We believe animation is more than movement. It is a way to create worlds, give characters a personality, and tell stories that can exist beyond the limits of reality."
               centered
             />
 
             <div className="grid items-stretch gap-6 md:grid-cols-3">
               <GlassCard className="h-full">
                 <h3 className="mb-4 text-xl font-semibold text-white">
-                  Creativity
+                  Characters
                 </h3>
 
                 <p className="leading-7 text-white/60">
-                  Every project starts with an idea. We push concepts further
-                  to create visuals that feel distinctive and intentional.
+                  From concept to movement, we create characters with
+                  personality, emotion, and a visual identity of their own.
                 </p>
               </GlassCard>
 
               <GlassCard className="h-full">
                 <h3 className="mb-4 text-xl font-semibold text-white">
-                  Storytelling
+                  Worlds
                 </h3>
 
                 <p className="leading-7 text-white/60">
-                  We focus on the story behind the visuals, creating content
-                  that connects with people rather than simply looking good.
+                  We build immersive environments, props, and visual worlds
+                  that give every story a place to exist.
                 </p>
               </GlassCard>
 
               <GlassCard className="h-full">
                 <h3 className="mb-4 text-xl font-semibold text-white">
-                  Execution
+                  Stories
                 </h3>
 
                 <p className="leading-7 text-white/60">
-                  From concept to final frame, we bring creative direction,
-                  production and post-production together under one roof.
+                  We bring characters and worlds together through storytelling
+                  that is designed to entertain, connect, and be remembered.
                 </p>
               </GlassCard>
             </div>
@@ -177,11 +176,11 @@ export default function AboutPage() {
               </p>
 
               <h2 className="text-4xl font-bold text-white md:text-5xl">
-                Have a story worth telling?
+                Have a world waiting to be created?
               </h2>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg text-white/60">
-                Let's turn your idea into something people remember.
+                Let's turn your idea, character, or story into something real.
               </p>
 
               <a

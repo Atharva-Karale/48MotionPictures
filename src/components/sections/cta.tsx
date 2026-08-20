@@ -1,22 +1,19 @@
 export default function CTA() {
   return (
-    <section
-      id="contact"
-      className="scroll-mt-20 py-28"
-    >
+    <section id="contact" className="py-28">
       <div className="mx-auto max-w-5xl px-6">
         <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-red-600/20 to-white/5 p-12 text-center backdrop-blur-sm">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
-            Let's Work Together
+            Let's Create
           </p>
 
           <h2 className="text-4xl font-bold text-white md:text-5xl">
-            Ready to bring your vision to life?
+            Have a world waiting to be created?
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
-            Whether it's a brand film, advertisement, music video, or social
-            media content, we're ready to create something exceptional.
+            From characters and environments to animated films, series, and
+            original ideas, let's bring your imagination to life.
           </p>
 
           <a

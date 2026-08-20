@@ -56,7 +56,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://wa.me/918698337312?text=Start%20a%20Project"
+          href="https://wa.me/918698337312?text=Hi%2048%20Motion%20Pictures%2C%20I%27d%20like%20to%20start%20a%20project."
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full border border-white/20 bg-white/5 px-5 py-2 text-sm font-medium text-white transition duration-300 hover:border-white hover:bg-white hover:text-black"

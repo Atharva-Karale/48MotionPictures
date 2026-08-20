@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="scroll-mt-20 relative flex min-h-screen items-center justify-center overflow-hidden px-6"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden px-6"
     >
       <motion.div
         animate={{
@@ -30,23 +30,22 @@ export default function Hero() {
         className="relative mx-auto max-w-4xl text-center"
       >
         <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-red-500">
-          Premium Video Production
+          Animation Studio
         </p>
 
         <h1 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-7xl">
-          Stories That
+          Where imagination
           <br />
-          Move People.
+          comes to life.
         </h1>
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-white/70">
-          Cinematic commercials, brand films, corporate videos and social media
-          content crafted to help ambitious brands stand out.
+          We turn ideas into characters, worlds, and stories that live beyond the screen.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/918698337312?text=Start%20a%20Project"
+            href="https://wa.me/918698337312?text=Hi%2048%20Motion%20Pictures%2C%20I%27d%20like%20to%20start%20a%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-white px-8 py-3 font-medium text-black shadow-lg shadow-white/10 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl hover:shadow-red-500/20"
@@ -60,7 +59,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="rounded-full border border-white/20 bg-white/5 px-8 py-3 font-medium text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-500/50 hover:bg-white/10"
           >
-            View Our Work
+            Explore Our Work
           </a>
         </div>
       </motion.div>

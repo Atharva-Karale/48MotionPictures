@@ -22,8 +22,8 @@ export default function Footer() {
           </Link>
 
           <p className="mt-4 text-sm leading-7 text-white/60">
-            Premium video production for brands, businesses, and creators.
-            We turn ideas into cinematic stories.
+            A studio creating characters, worlds, and stories that bring
+            imagination to life.
           </p>
         </div>
 
@@ -54,6 +54,13 @@ export default function Footer() {
             </Link>
 
             <Link
+              href="/careers"
+              className="block transition hover:text-white"
+            >
+              Careers
+            </Link>
+
+            <Link
               href="/#contact"
               className="block transition hover:text-white"
             >
@@ -62,30 +69,24 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Services */}
-        <div>
-          <h4 className="mb-4 font-semibold text-white">Services</h4>
-
-          <div className="space-y-3 text-white/60">
-            <p>Commercial Films</p>
-            <p>Music Videos</p>
-            <p>Social Media Content</p>
-            <p>Photography</p>
-          </div>
-        </div>
-
         {/* Contact */}
         <div>
           <h4 className="mb-4 font-semibold text-white">Contact</h4>
 
           <div className="space-y-3 text-white/60">
-            <p>Kolhapur, Maharashtra</p>
+            <p className="leading-7">
+              33/1, Amrutnagar Menon Colony,
+              <br />
+              Sarnobatwadi, Kolhapur,
+              <br />
+              Maharashtra 416004
+            </p>
 
             <a
-              href="mailto:hello@48motionpictures.com"
+              href="mailto:hello@48motionpictures.in"
               className="block transition hover:text-white"
             >
-              hello@48motionpictures.com
+              hello@48motionpictures.in
             </a>
 
             <a
@@ -98,21 +99,53 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        {/* Connect */}
+        <div>
+          <h4 className="mb-4 font-semibold text-white">Connect</h4>
+
+          <div className="flex gap-3">
+            <a
+              href="https://www.instagram.com/48MotionPictures"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/60 transition hover:border-white/30 hover:text-white"
+            >
+              Instagram
+            </a>
+
+            <a
+              href="https://www.youtube.com/@48MotionPictures"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/60 transition hover:border-white/30 hover:text-white"
+            >
+              YouTube
+            </a>
+          </div>
+
+          <p className="mt-5 max-w-xs text-sm leading-6 text-white/40">
+            Follow our work, characters, and worlds as they come to life.
+          </p>
+        </div>
       </div>
 
       {/* Copyright */}
       <div className="mt-16 border-t border-white/10 pt-8 text-center text-sm text-white/40">
         © {new Date().getFullYear()} 48 Motion Pictures. All rights reserved.
         {" | "}
+        Designed & Developed by{" "}
         <a
           href="https://www.instagram.com/Atharva.Karale_14/"
           target="_blank"
           rel="noopener noreferrer"
           className="transition hover:text-white"
         >
-          Designed by Atharva Karale
+          Atharva Karale
         </a>
-      </div>
+     </div>
     </footer>
   );
 }
