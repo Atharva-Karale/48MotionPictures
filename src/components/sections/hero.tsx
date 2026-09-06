@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { whatsappLink } from "@/constants/site";
 
 export default function Hero() {
   return (
@@ -45,7 +46,7 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="https://wa.me/918698337312?text=Hi%2048%20Motion%20Pictures%2C%20I%27d%20like%20to%20start%20a%20project."
+            href={whatsappLink("Hi 48 Motion Pictures, I'd like to start a project.")}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-white px-8 py-3 font-medium text-black shadow-lg shadow-white/10 transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-xl hover:shadow-red-500/20"
@@ -54,12 +55,12 @@ export default function Hero() {
           </a>
 
           <a
-            href="https://wa.me/918698337312?text=Portfolio"
+            href={whatsappLink("Hi 48 Motion Pictures, I'd like to request your portfolio.")}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-white/20 bg-white/5 px-8 py-3 font-medium text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-500/50 hover:bg-white/10"
           >
-            Explore Our Work
+            Request Our Portfolio
           </a>
         </div>
       </motion.div>
