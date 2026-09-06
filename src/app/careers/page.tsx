@@ -38,12 +38,12 @@ export default function CareersPage() {
               Create worlds
               <br />
               <span className="text-white/60">
-                that haven't been imagined yet.
+                that haven&apos;t been imagined yet.
               </span>
             </h1>
 
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-white/60">
-              We're looking for artists, animators, storytellers, and creative
+              We&apos;re looking for artists, animators, storytellers, and creative
               minds who want to bring characters and worlds to life.
             </p>
           </motion.div>
@@ -58,7 +58,7 @@ export default function CareersPage() {
               </p>
 
               <h2 className="text-4xl font-bold text-white md:text-5xl">
-                Who we're looking for
+                Who we&apos;re looking for
               </h2>
             </div>
 
@@ -80,7 +80,7 @@ export default function CareersPage() {
                     </h3>
 
                     <p className="mt-3 text-sm leading-6 text-white/50">
-                      We're interested in creative people who care about
+                      We&apos;re interested in creative people who care about
                       craft, storytelling, and bringing ideas to life.
                     </p>
                   </GlassCard>
@@ -104,7 +104,7 @@ export default function CareersPage() {
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/60">
                 Send us your portfolio, showreel, or a little about yourself. <br />
-                We'd love to see what you can create.
+                We&apos;d love to see what you can create.
               </p>
 
               <a

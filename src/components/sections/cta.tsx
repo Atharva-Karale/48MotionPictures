@@ -4,7 +4,7 @@ export default function CTA() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-red-600/20 to-white/5 p-12 text-center backdrop-blur-sm">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
-            Let's Create
+            Let&apos;s Create
           </p>
 
           <h2 className="text-4xl font-bold text-white md:text-5xl">
@@ -13,7 +13,7 @@ export default function CTA() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
             From characters and environments to animated films, series, and
-            original ideas, let's bring your imagination to life.
+            original ideas, let&apos;s bring your imagination to life.
           </p>
 
           <a

@@ -172,7 +172,7 @@ export default function AboutPage() {
           <div className="mx-auto max-w-5xl">
             <GlassCard className="text-center">
               <p className="mb-3 text-sm uppercase tracking-[0.3em] text-red-500">
-                Let's Create
+                Let&apos;s Create
               </p>
 
               <h2 className="text-4xl font-bold text-white md:text-5xl">
@@ -180,7 +180,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg text-white/60">
-                Let's turn your idea, character, or story into something real.
+                Let&apos;s turn your idea, character, or story into something real.
               </p>
 
               <a
