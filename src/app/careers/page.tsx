@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import GlassCard from "@/components/ui/glass-card";
+import { SITE } from "@/constants/site";
 
 const roles = [
   "3D Artists",
@@ -108,7 +109,7 @@ export default function CareersPage() {
               </p>
 
               <a
-                href="mailto:hello@48motionpictures.in?subject=Career%20Application%20-%2048%20Motion%20Pictures"
+                href={`mailto:${SITE.contact.email}?subject=Career%20Application%20-%2048%20Motion%20Pictures`}
                 className="mt-10 inline-flex rounded-full bg-white px-8 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:scale-105"
               >
                 Send Your Portfolio
