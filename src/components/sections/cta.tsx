@@ -1,3 +1,5 @@
+import { whatsappLink } from "@/constants/site";
+
 export default function CTA() {
   return (
     <section id="contact" className="py-28">
@@ -17,7 +19,7 @@ export default function CTA() {
           </p>
 
           <a
-            href="https://wa.me/918698337312?text=Start%20a%20Project"
+            href={whatsappLink("Start a Project")}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex rounded-xl bg-red-600 px-8 py-4 font-semibold text-white transition hover:bg-red-500"

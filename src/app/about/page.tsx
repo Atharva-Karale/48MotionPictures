@@ -6,6 +6,7 @@ import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import SectionHeading from "@/components/ui/section-heading";
 import GlassCard from "@/components/ui/glass-card";
+import { whatsappLink } from "@/constants/site";
 
 const founders = [
   {
@@ -184,7 +185,7 @@ export default function AboutPage() {
               </p>
 
               <a
-                href="https://wa.me/918698337312?text=Start%20a%20Project"
+                href={whatsappLink("Start a Project")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-10 inline-flex rounded-full bg-white px-8 py-3 font-medium text-black transition-all duration-300 hover:-translate-y-1 hover:scale-105"

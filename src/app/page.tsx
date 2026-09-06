@@ -3,7 +3,6 @@ import Hero from "@/components/sections/hero";
 import ClientLogos from "@/components/sections/client-logos";
 import Services from "@/components/sections/services";
 import WhyChooseUs from "@/components/sections/why-choose-us";
-import Testimonials from "@/components/sections/testimonials";
 import CTA from "@/components/sections/cta";
 import Footer from "@/components/layout/footer";
 
@@ -15,7 +14,6 @@ export default function HomePage() {
       <ClientLogos />
       <Services />
       <WhyChooseUs />
-      <Testimonials />
       <CTA />
       <Footer />
     </>
