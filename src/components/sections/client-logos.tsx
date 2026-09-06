@@ -14,7 +14,15 @@ export default function ClientLogos() {
               const isDuplicate = index >= clients.length;
               return (
                 <div key={`${client.name}-${index}`} aria-hidden={isDuplicate} className="flex h-20 w-52 items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-6 backdrop-blur-sm transition-all duration-300 hover:border-white/20 hover:bg-white/10">
-                  <Image src={client.logo} alt={isDuplicate ? "" : client.name} width={140} height={40} className="h-10 w-auto object-contain" style={{ height: "auto" }} />
+                  <div className="relative h-12 w-36 shrink-0">
+                    <Image
+                      src={client.logo}
+                      alt={isDuplicate ? "" : client.name}
+                      fill
+                      sizes="144px"
+                      className="object-contain"
+                    />
+                  </div>
                 </div>
               );
             })}
